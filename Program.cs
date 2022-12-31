@@ -390,7 +390,7 @@
 
                                 // Visar användaren hur mycket pengar hen har kvar på kontot
                                 Console.WriteLine("\nBekräftad uttag");
-                                Console.WriteLine("\nDitt nya saldo är: " + Math.Round(currentBalance[input], 2));
+                                Console.WriteLine("\nDitt nya saldo på det kontot är: " + Math.Round(currentBalance[input], 2));
                                 Console.BackgroundColor = ConsoleColor.Black;
 
                             }
